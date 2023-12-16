@@ -77,12 +77,10 @@ Copy the `server-chain.crt` certificate, which includes the server, intermediary
 ```
 sudo cp ~/certs/server-chain.crt /etc/pki/tls/certs/
 ```
-```
 Uncomment line 102 so that it references this full-chain certificate:
 ```
 sudo sed -i '102 s/^.//' /etc/httpd/conf.d/ssl.conf
 ```
-
 # Configure the Application Script #
 
 Create the CGI Binaries directory:
