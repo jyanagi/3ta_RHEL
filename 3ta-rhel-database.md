@@ -9,6 +9,12 @@ These configurations have been validated on Red Hat Enteprise Linux 9.3, with mi
 
 All steps within this section are to be performed on the __Database__ server.
 
+## Download Apache
+
+```
+sudo dnf install -y httpd
+```
+
 ## Create the directory and make the "apache" user the owner. ##
 
 ```
