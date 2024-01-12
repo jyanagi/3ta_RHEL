@@ -81,6 +81,11 @@ Uncomment line 102 so that it references this full-chain certificate:
 ```
 sudo sed -i '102 s/^.//' /etc/httpd/conf.d/ssl.conf
 ```
+Enable and Start Apache
+```
+systemctl enable httpd
+systemctl start httpd
+```
 # Configure the Application Script #
 
 Create the CGI Binaries directory:
