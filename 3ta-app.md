@@ -1,9 +1,9 @@
 ## Configure the App Server ##
 
-Download and Install Apache and SSL Modules
+Download and Install Apache, SSL Modules, and WGET
 
 ```
-sudo dnf install httpd mod_ssl -y
+sudo dnf install httpd mod_ssl wget -y
 ```
 
 Modify the listening port from 80 to 8443
