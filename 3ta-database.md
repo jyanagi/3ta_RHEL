@@ -1,8 +1,3 @@
-# 3ta_RHEL
-Refactoring 3TA for RHEL instead of PhotonOS.  
-
-All credits go to Doug Baer at VMware (now VMware by Broadcom) for originally developing the 3-Tier App using PhotonOS, as well as Vlad Kabatov for putting in the work translating requirements to refactor these configurations for the Red Hat Enterprise Linux OS.
-
 These configurations have been validated on Red Hat Enteprise Linux 9.3, with minimal packages installed. 
 
 ## Configure the Database ##
