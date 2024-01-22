@@ -1,3 +1,5 @@
+These configurations have been validated on Red Hat Enteprise Linux 9.3, with minimal packages installed. 
+
 ## Configure the App Server ##
 
 Download and Install Apache, SSL Modules, and WGET
