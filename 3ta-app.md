@@ -102,7 +102,9 @@ Download the Application script using the following wget command:
 ```
 wget https://raw.githubusercontent.com/doug-baer/hol-3-tier-app/master/app-01a/etc/httpd/cgi-bin/app.py
 ```
-Modify the IPs and hostnames of the web servers to fit your environment's standards.
+## !!!!!! IMPORTANT !!!!!! ##
+`Modify the IPs and hostnames of the web servers to fit your environment's standards.`
+## ##
 
 Add execute permissions and move to the `/etc/httpd/cgi-bin` directory:
 ```
