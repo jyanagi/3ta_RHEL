@@ -5,7 +5,7 @@ These configurations have been validated on Red Hat Enteprise Linux 9.3, with mi
 Download and Install Apache, SSL Modules, and WGET
 
 ```
-sudo dnf install httpd mod_ssl wget -y
+sudo dnf install httpd mod_ssl wget python-requests -y
 ```
 
 Modify the listening port from 80 to 8443
